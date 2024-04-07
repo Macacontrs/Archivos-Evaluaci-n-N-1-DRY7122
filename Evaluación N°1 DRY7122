@@ -1,0 +1,9 @@
+def imprimir_integrantes():
+    integrantes = ["ESTEBAN ANDRADE" , "SEBASTIAN BELLENGER" , "MACARENA CONTRERAS" , "PATRICIO MENDOZA" , "FELIPE RIVERA" , "EDUARDO VICENCIO"]
+
+    print("Integrantes del grupo:")
+    for integrante in integrantes:
+        print("-", integrante)
+
+  if __name__ == "__main__":
+      imprimir_integrantes()
